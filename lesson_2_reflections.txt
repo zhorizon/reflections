@@ -1,0 +1,7 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+   Create a repository to tell git to start to keep tract files version changes
+
+How it the staging area different from the working directory and the repository? What value do you think it offers?
+
+   It give us an area to manually control what files would be committed to the repository
