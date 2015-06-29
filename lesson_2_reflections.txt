@@ -17,3 +17,14 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
    Visualize the commit point where branch start (split) from, and the parent commit point, easy to locate the full parent path and reachable point
+
+What is the result of merging two branches together? Why do we reporesent it in the diagram the way we do?
+
+   Berging two branches will create a new commit that has two parents, each point to each branch accordingly. The new commit will have changes from both branches.
+
+What are the procs and cons of Git's auotmatic merging vs. always doing merges manually?
+
+   automatic merging procs > save time to include both changes in each branch
+                     cons > might include something that not really applicable to the merged version
+   manual ermging procs > resolve conflict manually and able to make sure the final version is okay
+                  cons > need to spend time understanding changes in both branches copies, and identify all changes and merge them to final version
