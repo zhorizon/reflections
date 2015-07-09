@@ -13,3 +13,16 @@ Describe the differences between forks, clones, and branches. When would you use
    clones is Git stuff and it is used to make a copy of complete history of another repository.
 
    branches is another version copy of of the repository, you can have different branches to maintenance different changes or version of your stuff.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+   We can check the different between remote and local, and apply the remote master changes to our local later
+   In other words, can have full control of when to merge the code and push them back to remote repository
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+   Previous I used CVS, perforce for development version control, but it is missing collaboration part. There is no central control of what can be committed to the central repository. And do not have a central place for communication between developers. We just simply use e-mail to communicate about the code change, etc.
+
+   By using GitHub, we can have a final control in terms of what should be committed to the remote repository. There is collaboration platform we can use to leave a note, comment, to communicate between developers.
+
+   However, as the complexity of Git and GitHub, and the concept behind, functionalities are quite different from tranditional central repository version-control system. Learning curve is required to get used to it.
