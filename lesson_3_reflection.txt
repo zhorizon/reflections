@@ -26,3 +26,10 @@ How would you collaborate without using Git or GitHub? What would be easier, and
    By using GitHub, we can have a final control in terms of what should be committed to the remote repository. There is collaboration platform we can use to leave a note, comment, to communicate between developers.
 
    However, as the complexity of Git and GitHub, and the concept behind, functionalities are quite different from tranditional central repository version-control system. Learning curve is required to get used to it.
+
+When would you want to make changes in s separate branch rather than directly in master? What benefits does each approach have?
+
+   In a single environment, meaning work alone, sometimes you might want to try something that might not be used, or not sure it is good for doing that, or sometimes when doing different task, enhancement in the same time. Working on different branch can have a full control on what will be used, and what will be discard later.
+
+   From collaboration perspectives, it is useful for each one working on their own branch, and merge them back to master, so code merge to master can be well tested individually especially there is merge conflict.
+   
